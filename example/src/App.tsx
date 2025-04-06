@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Debounce & Throttle Hooks Playground</h1>
+      <h1>React Debounce & Throttle Hooks Playground</h1>
       <input
         type="text"
         value={value}
