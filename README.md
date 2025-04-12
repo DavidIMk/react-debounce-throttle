@@ -39,7 +39,7 @@ import { useDebounce, useThrottle } from 'react-debounce-throttle';
 function App() {
   const [value, setValue] = useState('');
   const debouncedValue = useDebounce(value, 500);
-  const throttledValue = useThrottle(value, 500);
+  const throttledValue = useThrottle(value, 1000);
 
   return (
     <div style={{ padding: '20px' }}>
